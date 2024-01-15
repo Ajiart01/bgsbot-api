@@ -139,7 +139,7 @@ loghandler = {
     }
 }
 
-const listkey = ["ZBOTZZZZ", "NYXTODGANZ"];
+const listkey = ["BGSBOT", "bgsbot"];
 //router.use(favicon(__path + "/views/logo.ico"));
 
 var len = 15
@@ -157,7 +157,7 @@ var len = 15
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------ZahirGanteng'+'ZHIRRR--GANS';
+        var randomTextNumber = random+randomlagi+'---------BGSBOT'+'BGS--GANS';
         
 router.get('/cekapikey', async (req, res, next) => {
 	var apikeyInput = req.query.apikey
